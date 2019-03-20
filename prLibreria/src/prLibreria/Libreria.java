@@ -3,7 +3,7 @@ package prLibreria;
 import java.util.Arrays;
 
 public class Libreria {
-	private static final int CAP_INICIAL = 8;
+	protected static final int CAP_INICIAL = 8;
 	private int numLibs;
 	private Libro[] libs;
 	
@@ -21,7 +21,7 @@ public class Libreria {
 		anyadirLibro(addLibro);
 	}
 	
-	private void anyadirLibro(Libro libro) {
+	protected void anyadirLibro(Libro libro) {
 		int pos = buscarLibro(libro.getAutor(), libro.getTitulo());
 		if(0<=pos && pos<numLibs) {
 			libs[pos] = libro;

@@ -31,10 +31,10 @@ public class Libro {
 	@Override
 	public String toString() {
 		return "(" + getAutor() + "; " + getTitulo() + "; " 
-				+ getPrecioBase() + "; " + getIVA() + "; " + getPrecioFinal() + ";";
+				+ getPrecioBase() + "; " + getIVA() + " %; " + getPrecioFinal() + ")";
 	}
 	
-	private static double getIVA() {
+	public static double getIVA() {
 		return porcIVA;
 	}
 	
