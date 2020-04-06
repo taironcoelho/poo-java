@@ -25,20 +25,20 @@ public class Libro {
 	}
 	
 	public double getPrecioFinal() {
-		return precioBase + (precioBase*porcIVA)/100.0;
+		return precioBase + (precioBase*getIVA())/100.0;
 	}
 	
 	@Override
 	public String toString() {
 		return "(" + getAutor() + "; " + getTitulo() + "; " 
-				+ getPrecioBase() + "; " + getIVA() + "; " + getPrecioFinal() + ";";
+				+ getPrecioBase() + "; " + getIVA() + " %; " + getPrecioFinal() + ")";
 	}
 	
-	public double getIVA() {
+	public static double getIVA() {
 		return porcIVA;
 	}
 	
-	public void setIVA(double IVA) {
+	public static void setIVA(double IVA) {
 		porcIVA= IVA;
 	}
 	
