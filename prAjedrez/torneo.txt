@@ -1,0 +1,10 @@
+(1000, 5) Eduardo Canales --> María Rodriguez, Carmelo Sanchez, Monica Cantero, Javier Guijarro
+(1300, 6) María Rodriguez --> Eduardo Canales, Francisco Osuna, Juan Antonio Garcia, Antonia Davila, José Maria Rocha
+(1230, 7) Carmelo Sanchez --> Javier Guijarro, Eduardo Canales, Cristina Cabello, José Maria Rocha
+(1400, 4) Antonia Davila --> Francisco Osuna, Javier Guijarro, María Rodriguez
+(1150, 1) Juan Antonio Garcia --> José Maria Rocha, Monica Cantero, María Rodriguez
+(740, 6) José Maria Rocha --> Juan Antonio Garcia, Cristina Cabello, Francisco Osuna, Carmelo Sanchez, María Rodriguez
+(1100, 4) Francisco Osuna --> Antonia Davila, María Rodriguez, José Maria Rocha, Cristina Cabello
+(1200, 5) Cristina Cabello --> Monica Cantero, José Maria Rocha, Carmelo Sanchez, Francisco Osuna
+(1300, 5) Javier Guijarro --> Carmelo Sanchez, Antonia Davila, Eduardo Canales
+(1200, 3) Monica Cantero --> Cristina Cabello, Juan Antonio Garcia, Eduardo Canales
